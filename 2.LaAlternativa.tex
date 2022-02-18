@@ -1,0 +1,45 @@
+Algoritmo 2: Clasificar cuatro datos comparables
+
+
+...
+variables
+	a, b, suma, producto : ENTERO
+
+inicializaciones
+	a ← ??? ; b ← ???
+
+realización
+	suma ← a + b
+	producto ← a x b
+	clasificar4(a, b, suma, producto)
+
+
+Algoritmo clasificar4
+    # Clasifica `a', `b' `c' y `d' en orden creciente.
+
+Entrada
+    a, b, c, d : T → COMPARABLE
+
+precondición
+    VERDADERO
+
+realización
+    clasificar3(a, b, c)
+    # a ≤ b ≤ c ; situar `d'
+
+    si
+        d < a
+    entonces
+        # a > d ; b ≤ c
+        intercambiar(a, d)
+        # a ≤ d ; b ≤ c
+    fin si
+    # a ≤ d ; b ≤ c
+
+    clasificar3(b, c , d)
+    # a ≤ b ≤ c ≤ d
+
+postcondición
+    a ≤ b ≤ c ≤ d
+
+fin clasificar4
