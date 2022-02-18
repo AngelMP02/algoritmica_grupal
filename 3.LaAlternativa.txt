@@ -1,0 +1,23 @@
+﻿ej3:Un comerciante hace un descuento del 5 % en todas las compras con un importe comprendido entre 100 y 500 €, y del 8 % en los importes superiores.
+Escribir el algoritmo de cálculo del importe del descuento en una compra dada.
+
+
+algoritmo cálculo_del_importe_del_descuento:
+
+
+Entrada
+    importe: REAL
+   
+Resultado: REAL
+precondición 
+importe≥ 100
+#si el importe es menor que 100 no hay descuento
+realización 
+    si 
+importe≤500:
+entonces
+descuento images/flechegauche.PNG importe*0.05
+  sí no
+#si es mayor de 500 se aplica el 8%
+descuento images/flechegauche.PNG importe*0.08
+fin  cálculo_del_importe_del_descuento
