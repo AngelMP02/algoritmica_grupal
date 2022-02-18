@@ -11,19 +11,19 @@ if 10000>componentes>20000
     descuento = 0.1
     if COMMAQ True
     descuento =  descuento + 0.01
-    if BEL = true 
+    if BEL true 
     descuento = descuento 0.02
 
 if 20001>componentes>30000
     descuento = 0.15
     if COMMAQ True
     descuento =  descuento + 0.01
-    if BEL = true 
+    if BEL true 
     descuento = descuento 0.02
 
 if componentes>40000
     descuento = 0.2
     if COMMAQ True
     descuento =  descuento + 0.01
-    if BEL = true 
-    descuento = descuento 0.02
+    if BEL  true 
+    descuento =descuento 0.02
