@@ -1,0 +1,31 @@
+﻿Ejercicio 4: Otra vez una media
+algoritmo media_cuatro_notas:
+	Entrada
+nota_1: REAL
+nota_2: REAL
+nota_3: REAL
+nota_4: REAL
+
+
+precondición 
+0≤ nota_1<=20
+0≤ nota_2<= 20
+0≤ nota_3<= 20
+0≤ nota_4<= 20
+#las notas deben estar entre el 0 y el 20
+realización 
+   nota_final images/flechegauche.PNG ((nota_1 + nota_2 + nota_3 + nota_4)/4)
+si
+nota_final<=12
+Resultado  images/flechegauche.PNG «Debe reorientarse»
+o si
+12≤nota_final≤15
+Resultado  images/flechegauche.PNG «Con capacidad»
+o si
+nota_final≥15
+Resultado  images/flechegauche.PNG «Alumno con talento»
+
+
+
+
+fin media_cuatro_notas
